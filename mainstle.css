@@ -6,7 +6,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .titlegmares{
-    text-align: center;
+    height: 50%;
+    width: 50%;
 }
 
 .mytab{
@@ -25,7 +26,7 @@ font-family: 'Roboto', sans-serif;
 
 .mytab label{
     padding: 10px;
-    background: rgb(177, 220, 235);
+    background: rgb(216, 244, 255);
     font-weight: bold;
     border-radius: 5px;
     margin: 10px;
@@ -34,7 +35,7 @@ font-family: 'Roboto', sans-serif;
 .mytab .tab{
     width: 100%;
     padding: 20px;
-    background: rgb(177, 220, 235);
+    background: rgb(216, 244, 255);
     order: 1;
     border-radius: 10px;
     display: none;
@@ -42,4 +43,13 @@ font-family: 'Roboto', sans-serif;
 
 .mytab input[type='radio']:checked + label + .tab {
     display: block;
+}
+
+.gamemodesid{
+    font-weight: 100;
+    text-decoration: solid;
+}
+
+.listid{
+    text-align: justify;
 }
